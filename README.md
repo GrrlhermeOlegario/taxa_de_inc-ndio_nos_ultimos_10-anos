@@ -23,6 +23,6 @@ Atividades Realizadas:
 7. Organização da tabela final com todos os anos (2015 a 2025) e respectivas faixas.
    
  Resultados:
- Histograma com a distribuição das taxas.  
- Gráfico de regressão linear mostrando a evolução de 2015 a 2025.  
- Tabela organizada com **Faixa, Área, Valor e Ano**.  
+ - Histograma com a distribuição das taxas.  
+ - Gráfico de regressão linear mostrando a evolução de 2015 a 2025.  
+ - Tabela organizada com **Faixa, Área, Valor e Ano**.  
