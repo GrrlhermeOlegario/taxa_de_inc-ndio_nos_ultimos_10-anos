@@ -1,5 +1,7 @@
 *Análise das Taxas de Incêndio nos Últimos 10 Anos*
 
+Membros: Guilherme Andrade Freitas Olegario e Luís Fernando Oliveira Barros Dos Santos 
+
 Descrição:
 - Este repositório contém a análise da *Taxa de Incêndio* em imóveis residenciais nos últimos 10 anos.  
 O objetivo é organizar os dados do Excel, gerar visualizações estatísticas e aplicar uma regressão linear para identificar tendências e prever valores até 2025.
