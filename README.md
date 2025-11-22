@@ -1,30 +1,43 @@
-*Análise das Taxas de Incêndio nos Últimos 10 Anos*
-
-Membros: Guilherme Andrade Freitas Olegario e Luís Fernando Oliveira Barros Dos Santos 
-
-Descrição:
-- Este repositório contém a análise da *Taxa de Incêndio* em imóveis residenciais nos últimos 10 anos.  
-O objetivo é organizar os dados do Excel, gerar visualizações estatísticas e aplicar uma regressão linear para identificar tendências e prever valores até 2025.
-
-Ferramentas Utilizadas:
-- Google Colab (para rodar o código)  
-- Python 3
-
- Bibliotecas:  
-- ''pandas'' para organizar os dados  
-- ''matplotlib'' para gerar os gráficos  
-- ''scikit-learn'' para a regressão linear
-
-Atividades Realizadas:
-1. Leitura do arquivo Excel contendo as taxas de incêndio organizadas por faixa e ano.  
-2. Limpeza e padronização dos dados (remoção de cabeçalhos extras, conversão de valores numéricos).  
-3. Geração de histogramas para visualizar a distribuição de frequência das taxas.  
-4. Cálculo do valor médio anual das taxas.  
-5. Aplicação de regressão linear para identificar a tendência das taxas entre 2015 e 2025.  
-6. Visualização da regressão em gráfico comparando valores reais e valores previstos.  
-7. Organização da tabela final com todos os anos (2015 a 2025) e respectivas faixas.
-   
- Resultados:
- - Histograma com a distribuição das taxas.  
- - Gráfico de regressão linear mostrando a evolução de 2015 a 2025.  
- - Tabela organizada com **Faixa, Área, Valor e Ano**.  
+Análise das Taxas de Incêndio nos Últimos 10 Anos (FUNESBOM/RJ)
+ Sobre o projeto
+Este repositório reúne o trabalho de análise da base da Taxa de Incêndio do FUNESBOM/RJ.
+A ideia foi explorar os dados, aplicar conceitos básicos de estatística e visualizar o comportamento das informações ao longo dos anos, relacionando com o que aprendemos na disciplina.
+________________________________________
+ Objetivos
+•	Organizar e limpar a base de dados.
+•	Calcular estatísticas como média e desvio padrão.
+•	Criar gráficos para facilitar a interpretação.
+•	Montar uma regressão linear para observar tendência.
+•	Registrar todo o processo para consulta.
+________________________________________
+ Ferramentas utilizadas
+•	Python
+•	Pandas 
+•	NumPy 
+•	Matplotlib / Seaborn 
+•	Google Colab / Jupyter Notebook
+________________________________________
+ Etapas realizadas
+ 1. Leitura da base
+Carregamento inicial dos dados e checagem de inconsistências.
+ 2. Limpeza
+•	Remoção de valores faltando
+•	Ajuste de tipos de dados
+•	Padronização das colunas
+ 3. Estatísticas iniciais
+•	Média: usada para ter uma noção geral dos valores.
+•	Desvio padrão: mostra o quanto os valores variam.
+ 4. Distribuição de frequência
+Gráfico para entender como os valores estão distribuídos e se existem concentrações em certas faixas.
+ 5. Regressão linear
+Tendência visual dos dados ao longo do tempo, mostrando se os valores sobem, caem ou ficam estáveis.
+________________________________________
+Gráficos incluídos
+•	Média
+•	Desvio padrão
+•	Distribuição de frequência
+•	Regressão linear
+Cada um foi usado para ajudar na interpretação dos dados e complementar a análise.
+________________________________________
+ Informações gerais
+Projeto desenvolvido para a disciplina de Tópicos em Big Data, com foco em análise de dados públicos e impacto social.
